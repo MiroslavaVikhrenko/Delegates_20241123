@@ -7,11 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates_20241123", "Deleg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates_20241123_task2", "Delegates_20241123_task2\Delegates_20241123_task2.csproj", "{62EDA194-B670-44DC-B5DE-12B98497F2C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates20241204_task1", "Delegates20241204_task1\Delegates20241204_task1.csproj", "{AE35624C-BB6D-4786-AF52-C7F8A97A67F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates20241204_task1", "Delegates20241204_task1\Delegates20241204_task1.csproj", "{AE35624C-BB6D-4786-AF52-C7F8A97A67F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241204_SendMessageDelegatesTask2", "20241204_SendMessageDelegatesTask2\20241204_SendMessageDelegatesTask2.csproj", "{3644F6E1-0DB2-469C-84F8-19772F677BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20241204_SendMessageDelegatesTask2", "20241204_SendMessageDelegatesTask2\20241204_SendMessageDelegatesTask2.csproj", "{3644F6E1-0DB2-469C-84F8-19772F677BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241204_DelegatesGenerics_task3", "20241204_DelegatesGenerics_task3\20241204_DelegatesGenerics_task3.csproj", "{13D4EC24-D8D7-4B64-8FAF-8DE732675E0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20241204_DelegatesGenerics_task3", "20241204_DelegatesGenerics_task3\20241204_DelegatesGenerics_task3.csproj", "{13D4EC24-D8D7-4B64-8FAF-8DE732675E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241205_delegates_task1", "20241205_delegates_task1\20241205_delegates_task1.csproj", "{33FE9BD9-6CF3-469D-AD55-10689970D961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241205_lambda_task2", "20241205_lambda_task2\20241205_lambda_task2.csproj", "{842A8774-BA5B-4F97-AA77-A7C7170F0AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241205_lambda_task3", "20241205_lambda_task3\20241205_lambda_task3.csproj", "{66943E6E-72FE-4591-AF78-86F3432E9DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241205_lambda_task4", "20241205_lambda_task4\20241205_lambda_task4.csproj", "{B7079C69-BC55-4392-BAA1-C8FAB2197CC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{13D4EC24-D8D7-4B64-8FAF-8DE732675E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D4EC24-D8D7-4B64-8FAF-8DE732675E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D4EC24-D8D7-4B64-8FAF-8DE732675E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FE9BD9-6CF3-469D-AD55-10689970D961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FE9BD9-6CF3-469D-AD55-10689970D961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FE9BD9-6CF3-469D-AD55-10689970D961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FE9BD9-6CF3-469D-AD55-10689970D961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842A8774-BA5B-4F97-AA77-A7C7170F0AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842A8774-BA5B-4F97-AA77-A7C7170F0AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842A8774-BA5B-4F97-AA77-A7C7170F0AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842A8774-BA5B-4F97-AA77-A7C7170F0AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66943E6E-72FE-4591-AF78-86F3432E9DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66943E6E-72FE-4591-AF78-86F3432E9DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66943E6E-72FE-4591-AF78-86F3432E9DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66943E6E-72FE-4591-AF78-86F3432E9DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7079C69-BC55-4392-BAA1-C8FAB2197CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7079C69-BC55-4392-BAA1-C8FAB2197CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7079C69-BC55-4392-BAA1-C8FAB2197CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7079C69-BC55-4392-BAA1-C8FAB2197CC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
